@@ -15,12 +15,12 @@ const Sym = ({symptom}) => {
     return (
         <Card className="customCard" style={{ width: '10rem'}} >
             <Card.Body>
-                <Card.Text>
+                <Card.Text className="cardText">
                  {symptom}
                 </Card.Text>
-                <Card.Link href="../anxiety">Card Link</Card.Link>
+                <Card.Link className="cardLink" href="../anxiety">Learn More</Card.Link>
             </Card.Body>
-         </Card>
+        </Card>
     )
 };
 

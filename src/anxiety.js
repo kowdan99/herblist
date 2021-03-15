@@ -1,8 +1,8 @@
 import ANXDEP from './data';
-
+import './App.css';
 const Anx = () => {
     return (
-        <div>
+        <div className="sym">
             <h1>Herb List &#127793;</h1>
             <div className="anx">
                 {ANXDEP.map((item) => (

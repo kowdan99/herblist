@@ -1,6 +1,8 @@
 import './App.css';
 import Sym from "./components/symptom";
 import CardDeck from 'react-bootstrap/CardDeck';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 function App() {
   return (
@@ -12,8 +14,11 @@ function App() {
         </div>
       </div>
       <CardDeck style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly'}}>
-        <Sym symptom = "Anxiety and Depression"/>
-        <Sym symptom = "Immunity"/>
+        <Row md={2}>
+        <Col> <Sym symptom = "Anxiety and Depression"/></Col>
+        <Col> <Sym symptom = "Immunity"/> </Col>
+        <Col> <Sym symptom = "Gut Health"/> </Col>
+        </Row>
       </CardDeck>
     </div>
   );
