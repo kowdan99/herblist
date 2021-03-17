@@ -15,11 +15,23 @@ function App() {
       </div>
       <CardDeck style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly'}}>
         <Row md={2}>
-        <Col> <Sym symptom = "Anxiety and Depression"/></Col>
+        <Col> <Sym symptom = "Anxiety/Depression"/></Col>
         <Col> <Sym symptom = "Immunity"/> </Col>
         <Col> <Sym symptom = "Gut Health"/> </Col>
+        <Col> <Sym symptom = "Hair Health"/> </Col>
         </Row>
       </CardDeck>
+
+      <footer>
+      <a
+        className="builtby"
+        href="https://twitter.com/ysf_k"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        built with 	&#128154; by @ysf_k
+      </a>
+      </footer>
     </div>
   );
 }
