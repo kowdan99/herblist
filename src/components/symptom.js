@@ -12,13 +12,23 @@ const Sym = ({symptom}) => {
     //     history.push("../anxiety");
     // }
 
+    let link = "";
+
+    if(symptom === "Anxiety/Depression") {
+        link = "anxiety";
+    } else if(symptom === "Immunity") {
+        link = "immunity";
+    }
+
+    let result = "../" + link;
+    //console.log(result)
     return (
         <Card className="customCard" style={{ width: '10rem'}} >
             <Card.Body>
                 <Card.Text className="cardText">
                  {symptom}
                 </Card.Text>
-                <Card.Link className="cardLink" href="../anxiety">Learn More</Card.Link>
+                <Card.Link className="cardLink" href={result}>Learn More</Card.Link>
             </Card.Body>
         </Card>
     )

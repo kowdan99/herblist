@@ -50,6 +50,11 @@ const IMMUN = [
         title: "Reishi Mushroom",
         url: "https://www.healthline.com/nutrition/reishi-mushroom-benefits",
     },
+
+    {
+        title: "Dandelion",
+        url: "https://www.healthline.com/nutrition/dandelion-benefits",
+    },
 ];
 
 

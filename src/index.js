@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import './index.css';
 import App from './App';
 import Anx from './anxiety'
+import IMMUNITY from './immunity'
 
 // ReactDOM.render(
 //   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.render(
     <Switch>
       <Route exact path="/" component={App} />
       <Route path="/anxiety" component={Anx} />
+      <Route path="/immunity" component={IMMUNITY} />
     </Switch>
   </BrowserRouter>,
   rootElement
