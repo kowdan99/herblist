@@ -57,6 +57,18 @@
   font-size: 90%;
 }
 
+.builtby {
+  position: relative;
+  padding: 10px 0;
+  border-top: 2px solid hsla(0,0%,100%,0.1);
+  color: hsla(0,0%,100%,0.7);
+  font-family: 'Inter', sans-serif;
+  font-weight: 450;
+  font-size: 15px;
+  text-align: center;
+}
+
+
 
 /* .App-header {
   background-color: #282c34;

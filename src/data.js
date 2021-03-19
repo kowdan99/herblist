@@ -28,6 +28,11 @@ const ANXDEP = [
         title: "Burdock Root",
         url: "https://www.healthline.com/health/burdock-root",
     },
+
+    {
+        title: "Vitamin D3",
+        url: "https://www.healthline.com/health/food-nutrition/benefits-vitamin-d",
+    },
 ];
 
 const IMMUN = [
