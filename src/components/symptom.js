@@ -20,7 +20,7 @@ const Sym = ({symptom}) => {
         link = "immunity";
     }
 
-    let result = "../" + link;
+    let result = "./#/" + link;
     //console.log(result)
     return (
         <Card className="customCard" style={{ width: '10rem'}} >
