@@ -29,7 +29,7 @@ function App() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        built with 	&#128154; by @ysf_k
+        built by @ysf_k
       </a>
       </footer>
     </div>
