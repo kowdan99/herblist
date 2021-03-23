@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/herblist/static/css/main.2b43b911.chunk.css",
-    "main.js": "/herblist/static/js/main.117b85f0.chunk.js",
-    "main.js.map": "/herblist/static/js/main.117b85f0.chunk.js.map",
+    "main.js": "/herblist/static/js/main.9f0d1e67.chunk.js",
+    "main.js.map": "/herblist/static/js/main.9f0d1e67.chunk.js.map",
     "runtime-main.js": "/herblist/static/js/runtime-main.5779029b.js",
     "runtime-main.js.map": "/herblist/static/js/runtime-main.5779029b.js.map",
     "static/js/2.2edb562a.chunk.js": "/herblist/static/js/2.2edb562a.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.5779029b.js",
     "static/js/2.2edb562a.chunk.js",
     "static/css/main.2b43b911.chunk.css",
-    "static/js/main.117b85f0.chunk.js"
+    "static/js/main.9f0d1e67.chunk.js"
   ]
 }
