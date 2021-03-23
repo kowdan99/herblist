@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import './index.css';
 import App from './App';
 import Anx from './anxiety'
@@ -15,13 +15,13 @@ import registerServiceWorker from './registerServiceWorker';
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <Switch>
       <Route exact path="/" component={App} />
       <Route path="/anxiety" component={Anx} />
       <Route path="/immunity" component={IMMUNITY} />
     </Switch>
-  </BrowserRouter>,
+  </HashRouter>,
   rootElement
 );
 
