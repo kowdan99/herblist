@@ -18,8 +18,8 @@ html {
 }
 
 .block li {
-    display: inline;
-    float: left;
+    display: inline-block;
+    float: none;
 }
 
 .block li a {
