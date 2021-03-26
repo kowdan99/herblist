@@ -9,11 +9,11 @@ html {
       sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 
-li {
+.feedback {
     display: inline;
 }
 
-li a {
+.feedback a {
     color: #007f00;
     cursor: pointer;
     border-bottom: 3px solid #007f00;
