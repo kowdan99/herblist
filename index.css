@@ -26,6 +26,7 @@ html {
     color: #007f00;
     text-align: center;
     cursor: pointer;
+    padding: 14px 16px;
     text-decoration: none;
     border-bottom: 3px solid #007f00;
 }
