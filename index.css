@@ -9,11 +9,19 @@ html {
       sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 
-.feedback {
+
+.block {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.block li {
     display: inline;
 }
 
-.feedback a {
+.block li a {
     color: #007f00;
     cursor: pointer;
     border-bottom: 3px solid #007f00;
