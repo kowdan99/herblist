@@ -9,3 +9,12 @@ html {
       sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 
+li {
+    display: inline;
+}
+
+li a {
+    color: #007f00;
+    cursor: pointer;
+    border-bottom: 3px solid #007f00;
+}
