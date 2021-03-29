@@ -3,7 +3,7 @@ import './App.css';
 const IMMUNITY = () => {
     return (
         <div className="sym">
-            <h1>Herb List &#127793;</h1>
+            <h1>Herbs List &#127793;</h1>
             <h3>Immunity</h3>
             <div className="anx">
                 {IMMUN.map((item) => (

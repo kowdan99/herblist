@@ -23,6 +23,11 @@ const IMMUN = [
         title: "Dandelion",
         url: "https://www.healthline.com/nutrition/dandelion-benefits",
     },
+
+    {
+        title: "Black Seed Oil",
+        url: "https://www.healthline.com/health/food-nutrition/black-seed-oil-benefits",
+    },
 ];
 
 

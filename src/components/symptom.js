@@ -18,6 +18,10 @@ const Sym = ({symptom}) => {
         link = "anxiety";
     } else if(symptom === "Immunity") {
         link = "immunity";
+    } else if(symptom === "Oral Health") {
+        link = "oral";
+    } else if(symptom === "Heart Health") {
+        link = "heart";
     }
 
     let result = "./#/" + link;

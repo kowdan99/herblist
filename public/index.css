@@ -9,3 +9,36 @@ html {
       sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 
+
+/* .block {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+} */
+
+.block {
+    text-align: center;
+}
+
+/* .block li {
+    display: inline-block;
+    float: none;
+} */
+
+.block li {
+    display: inline;
+}
+
+.block a {
+    color: #007f00;
+    /* text-align: center; */
+    /* padding: 14px 16px; */
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+.block li a:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #007f00;
+}

@@ -94,7 +94,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .wrapper {
     height: 3vh;
     /*This part is important for centering*/
@@ -107,7 +107,7 @@
     width: 5ch;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
-    overflow: hidden;
+    overflow: auto;
     border-right: 1px solid;
     font-family: monospace;
     font-size: xx-small;

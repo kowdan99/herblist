@@ -5,6 +5,8 @@ import './index.css';
 import App from './App';
 import Anx from './anxiety'
 import IMMUNITY from './immunity'
+import ORAL from './oral'
+import HEART from './heart';
 //import registerServiceWorker from './registerServiceWorker';
 // ReactDOM.render(
 //   <React.StrictMode>
@@ -20,6 +22,8 @@ ReactDOM.render(
       <Route exact path="/" component={App} />
       <Route path="/anxiety" component={Anx} />
       <Route path="/immunity" component={IMMUNITY} />
+      <Route path="/oral" component={ORAL} />
+      <Route path="/heart" component={HEART} />
     </Switch>
   </HashRouter>,
   rootElement

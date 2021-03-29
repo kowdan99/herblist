@@ -1,12 +1,12 @@
-import ANXDEP from './data';
+import HEART_DATA from './heart_data';
 import './App.css';
-const Anx = () => {
+const HEART = () => {
     return (
         <div className="sym">
             <h1>Herbs List &#127793;</h1>
-            <h3>Anxiety/Depression</h3>
+            <h3>Heart Health</h3>
             <div className="anx">
-                {ANXDEP.map((item) => (
+                {HEART_DATA.map((item) => (
                     <div className="item" key={item.title}>
                     <a
                         className="link"
@@ -23,4 +23,4 @@ const Anx = () => {
     )
 };
 
-export default Anx
+export default HEART

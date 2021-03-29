@@ -33,6 +33,11 @@ const ANXDEP = [
         title: "Vitamin D3",
         url: "https://www.healthline.com/health/food-nutrition/benefits-vitamin-d",
     },
+
+    {
+        title: "Magnesium",
+        url: "https://www.healthline.com/nutrition/10-proven-magnesium-benefits",
+    },
 ];
 
 const IMMUN = [
