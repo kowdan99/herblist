@@ -10,21 +10,29 @@ html {
 }
 
 
-.block {
+/* .block {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+} */
+
+.block {
+    text-align: center;
 }
 
-.block li {
+/* .block li {
     display: inline-block;
     float: none;
+} */
+
+.block li {
+    display: inline;
 }
 
 .block li a {
     color: #007f00;
-    text-align: center;
+    /* text-align: center; */
     padding: 14px 16px;
     text-decoration: none;
 }
