@@ -34,13 +34,8 @@ html {
     color: #007f00;
     /* text-align: center; */
     /* padding: 14px 16px; */
-    /* padding: 0 30px;
-    text-decoration: none; */
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    padding: 0 30px;
+    text-decoration: none;
 }
 
 .block li a:hover {
