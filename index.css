@@ -30,10 +30,11 @@ html {
     display: inline;
 }
 
-.block li a {
+.block a {
     color: #007f00;
     /* text-align: center; */
-    padding: 14px 16px;
+    /* padding: 14px 16px; */
+    padding: 0 30px;
     text-decoration: none;
 }
 
