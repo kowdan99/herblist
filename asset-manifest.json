@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/herblist/static/css/main.64da43cf.chunk.css",
-    "main.js": "/herblist/static/js/main.1fc0a2b9.chunk.js",
-    "main.js.map": "/herblist/static/js/main.1fc0a2b9.chunk.js.map",
+    "main.css": "/herblist/static/css/main.9607b71f.chunk.css",
+    "main.js": "/herblist/static/js/main.3486fb61.chunk.js",
+    "main.js.map": "/herblist/static/js/main.3486fb61.chunk.js.map",
     "runtime-main.js": "/herblist/static/js/runtime-main.5779029b.js",
     "runtime-main.js.map": "/herblist/static/js/runtime-main.5779029b.js.map",
     "static/js/2.1dc5c19e.chunk.js": "/herblist/static/js/2.1dc5c19e.chunk.js",
     "static/js/2.1dc5c19e.chunk.js.map": "/herblist/static/js/2.1dc5c19e.chunk.js.map",
     "index.html": "/herblist/index.html",
-    "static/css/main.64da43cf.chunk.css.map": "/herblist/static/css/main.64da43cf.chunk.css.map",
+    "static/css/main.9607b71f.chunk.css.map": "/herblist/static/css/main.9607b71f.chunk.css.map",
     "static/js/2.1dc5c19e.chunk.js.LICENSE.txt": "/herblist/static/js/2.1dc5c19e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5779029b.js",
     "static/js/2.1dc5c19e.chunk.js",
-    "static/css/main.64da43cf.chunk.css",
-    "static/js/main.1fc0a2b9.chunk.js"
+    "static/css/main.9607b71f.chunk.css",
+    "static/js/main.3486fb61.chunk.js"
   ]
 }
