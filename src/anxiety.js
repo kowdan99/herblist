@@ -1,5 +1,6 @@
 import ANXDEP from './data';
 import './App.css';
+import Footer from './components/footer';
 const Anx = () => {
     return (
         <div className="sym">
@@ -19,6 +20,7 @@ const Anx = () => {
                     </div>
                 ))}
             </div>
+            <Footer/>
         </div>
     )
 };

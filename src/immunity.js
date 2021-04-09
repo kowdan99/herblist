@@ -1,5 +1,6 @@
 import IMMUN from './immun_data';
 import './App.css';
+import Footer from './components/footer';
 const IMMUNITY = () => {
     return (
         <div className="sym">
@@ -19,6 +20,7 @@ const IMMUNITY = () => {
                     </div>
                 ))}
             </div>
+            <Footer/>
         </div>
     )
 };

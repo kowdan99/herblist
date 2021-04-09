@@ -28,6 +28,8 @@ html {
 
 .block li {
     display: inline;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .block a {
@@ -40,5 +42,4 @@ html {
 
 .block li a:hover {
     cursor: pointer;
-    border-bottom: 3px solid #007f00;
 }

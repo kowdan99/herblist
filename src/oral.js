@@ -1,5 +1,6 @@
 import ORAL_DATA from './oral_data';
 import './App.css';
+import Footer from './components/footer';
 const ORAL = () => {
     return (
         <div className="sym">
@@ -19,6 +20,7 @@ const ORAL = () => {
                     </div>
                 ))}
             </div>
+            <Footer/>
         </div>
     )
 };

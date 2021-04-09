@@ -1,5 +1,6 @@
 import HEART_DATA from './heart_data';
 import './App.css';
+import Footer from './components/footer';
 const HEART = () => {
     return (
         <div className="sym">
@@ -19,6 +20,7 @@ const HEART = () => {
                     </div>
                 ))}
             </div>
+            <Footer/>
         </div>
     )
 };

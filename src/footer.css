@@ -1,0 +1,15 @@
+.footer {
+    position: relative;
+    padding: 10px 0;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 450;
+    font-size: 15px;
+    text-align: center;
+    border-top: 2px solid hsla(0,0%,100%,0.1);
+}
+  
+.footer a {
+    color: #007f00;
+    text-decoration: none;
+}
